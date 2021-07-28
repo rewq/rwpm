@@ -15,13 +15,13 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
     name='rwpm',  # Required
-    version='0.0.0.0-2',  # Required
+    version='0.0.0.1-2',  # Required
     description='A sample Python project',  # Optional
     long_description=long_description,  # Optional
     long_description_content_type='text/markdown',  
-    url='https://github.com/pypa/sampleproject',  # Optional
-    author='A. Random Developer',  # Optional
-    author_email='author@example.com',  # Optional
+    url='https://github.com/rewq/rwpm',  # Optional
+    author='rewq',  # Optional
+    #author_email='x@cmail.nu',  # Optional
     classifiers=[  # Optional
         # How mature is this project? Common values are
         #   3 - Alpha
@@ -73,8 +73,6 @@ setup(
 
     project_urls={  # Optional
         'Bug Reports': 'https://github.com/rewq/rwpm/issues',
-        'Funding': 'https://donate.pypi.org',
-        'Say Thanks!': 'http://saythanks.io/to/example',
         'Source': 'https://github.com/rewq/rwpm',
     },
 )
