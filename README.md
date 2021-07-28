@@ -1,5 +1,5 @@
 # ReadWriteProcessMemory
-A python extension
+A Python/C API extension module to interface with process_vm_readv(2) and process_vm_writev(2) system calls.
 
 ![Python Logo](https://www.python.org/static/community_logos/python-logo.png "Sample inline image")
 
