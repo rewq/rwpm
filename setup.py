@@ -15,7 +15,7 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
     name='rwpm',  # Required
-    version='0.0.0.1-2',  # Required
+    version='0.0.0.1-3',  # Required
     description='A sample Python project',  # Optional
     long_description=long_description,  # Optional
     long_description_content_type='text/markdown',  
@@ -34,7 +34,7 @@ setup(
         'Topic :: Software Development :: Disassemblers',
         'Topic :: Software Development :: Debuggers',
         'Topic :: System :: Operating System Kernels :: Linux',
-        'Operating System :: POSIX :: Linux'
+        'Operating System :: POSIX :: Linux',
 
         # Pick your license as you wish
         #'License :: OSI Approved :: MIT License',
@@ -50,10 +50,10 @@ setup(
         'Programming Language :: Python :: 3 :: Only',
     ],
     keywords='sample, setuptools, development',  # Optional
-    package_dir={'': 'src'},  # Optional
+    #package_dir={'': 'src'},  # Optional
     packages=find_packages(where='src'),  # Required
     python_requires='>=3.6, <4',
-    ext_modules = [Extension("rwpm", ["src/rwpm.c"],include_dirs=['src'])],
+    ext_modules = [Extension("rwpm", ["src/rwpm/rwpm.c"],include_dirs=['src/rwpm'])],
     #install_requires=[],  # Optional
     #package_data={},  # Optional
     #data_files=[],  # Optional
