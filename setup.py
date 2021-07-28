@@ -15,7 +15,7 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
     name='rwpm',  # Required
-    version='0.0.0.1',  # Required
+    version='0.0.0.0-2',  # Required
     description='A sample Python project',  # Optional
     long_description=long_description,  # Optional
     long_description_content_type='text/markdown',  
@@ -27,11 +27,14 @@ setup(
         #   3 - Alpha
         #   4 - Beta
         #   5 - Production/Stable
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 2 - Pre-Alpha',
 
         # Indicate who your project is intended for
         'Intended Audience :: Developers',
-        'Topic :: Software Development :: Build Tools',
+        'Topic :: Software Development :: Disassemblers',
+        'Topic :: Software Development :: Debuggers',
+        'Topic :: System :: Operating System Kernels :: Linux',
+        'Operating System :: POSIX :: Linux'
 
         # Pick your license as you wish
         #'License :: OSI Approved :: MIT License',
